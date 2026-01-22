@@ -1,0 +1,386 @@
+{
+  "Routes": [
+    {
+      "Id": 1,
+      "Departure": "Київ",
+      "Arrival": "Львів",
+      "Distance": 540,
+      "BasePrice": 450.0,
+      "DepartureTime": "08:00:00",
+      "DisplayName": "Київ → Львів"
+    },
+    {
+      "Id": 2,
+      "Departure": "Київ",
+      "Arrival": "Одеса",
+      "Distance": 480,
+      "BasePrice": 380.0,
+      "DepartureTime": "10:30:00",
+      "DisplayName": "Київ → Одеса"
+    },
+    {
+      "Id": 3,
+      "Departure": "Львів",
+      "Arrival": "Київ",
+      "Distance": 540,
+      "BasePrice": 450.0,
+      "DepartureTime": "14:00:00",
+      "DisplayName": "Львів → Київ"
+    },
+    {
+      "Id": 4,
+      "Departure": "Одеса",
+      "Arrival": "Київ",
+      "Distance": 480,
+      "BasePrice": 380.0,
+      "DepartureTime": "16:00:00",
+      "DisplayName": "Одеса → Київ"
+    },
+    {
+      "Id": 5,
+      "Departure": "Харків",
+      "Arrival": "Київ",
+      "Distance": 480,
+      "BasePrice": 400.0,
+      "DepartureTime": "09:00:00",
+      "DisplayName": "Харків → Київ"
+    },
+    {
+      "Id": 6,
+      "Departure": "Дніпро",
+      "Arrival": "Київ",
+      "Distance": 480,
+      "BasePrice": 420.0,
+      "DepartureTime": "07:30:00",
+      "DisplayName": "Дніпро → Київ"
+    },
+    {
+      "Id": 7,
+      "Departure": "Запоріжжя",
+      "Arrival": "Київ",
+      "Distance": 550,
+      "BasePrice": 460.0,
+      "DepartureTime": "11:00:00",
+      "DisplayName": "Запоріжжя → Київ"
+    },
+    {
+      "Id": 8,
+      "Departure": "Київ",
+      "Arrival": "Харків",
+      "Distance": 480,
+      "BasePrice": 400.0,
+      "DepartureTime": "13:30:00",
+      "DisplayName": "Київ → Харків"
+    }
+  ],
+  "Tickets": [
+    {
+      "Id": 1,
+      "Route": {
+        "Id": 1,
+        "Departure": "Київ",
+        "Arrival": "Львів",
+        "Distance": 540,
+        "BasePrice": 450.0,
+        "DepartureTime": "08:00:00",
+        "DisplayName": "Київ → Львів"
+      },
+      "Passenger": {
+        "LastName": "Іванов",
+        "FirstName": "Петро",
+        "MiddleName": "Олександрович",
+        "Phone": "+380501234567",
+        "Document": "АВ123456",
+        "FullName": "Іванов Петро Олександрович",
+        "Name": "Іванов Петро Олександрович"
+      },
+      "Date": "2025-01-15T00:00:00",
+      "Price": 450.0,
+      "TicketType": "Regular",
+      "PaymentMethod": "Cash",
+      "Status": "Cancelled",
+      "RouteInfo": "Київ → Львів",
+      "PassengerName": "Іванов Петро Олександрович"
+    },
+    {
+      "Id": 2,
+      "Route": {
+        "Id": 2,
+        "Departure": "Київ",
+        "Arrival": "Одеса",
+        "Distance": 480,
+        "BasePrice": 380.0,
+        "DepartureTime": "10:30:00",
+        "DisplayName": "Київ → Одеса"
+      },
+      "Passenger": {
+        "LastName": "Петренко",
+        "FirstName": "Марія",
+        "MiddleName": "Володимирівна",
+        "Phone": "+380671234567",
+        "Document": "1234567890",
+        "FullName": "Петренко Марія Володимирівна",
+        "Name": "Петренко Марія Володимирівна"
+      },
+      "Date": "2025-01-16T00:00:00",
+      "Price": 372.4,
+      "TicketType": "Discount",
+      "PaymentMethod": "Card",
+      "Status": "Active",
+      "RouteInfo": "Київ → Одеса",
+      "PassengerName": "Петренко Марія Володимирівна"
+    },
+    {
+      "Id": 3,
+      "Route": {
+        "Id": 3,
+        "Departure": "Львів",
+        "Arrival": "Київ",
+        "Distance": 540,
+        "BasePrice": 450.0,
+        "DepartureTime": "14:00:00",
+        "DisplayName": "Львів → Київ"
+      },
+      "Passenger": {
+        "LastName": "Коваленко",
+        "FirstName": "Олексій",
+        "MiddleName": "Іванович",
+        "Phone": "+380931234567",
+        "Document": "КМ987654",
+        "FullName": "Коваленко Олексій Іванович",
+        "Name": "Коваленко Олексій Іванович"
+      },
+      "Date": "2025-01-17T00:00:00",
+      "Price": 427.5,
+      "TicketType": "Regular",
+      "PaymentMethod": "Online",
+      "Status": "Active",
+      "RouteInfo": "Львів → Київ",
+      "PassengerName": "Коваленко Олексій Іванович"
+    },
+    {
+      "Id": 4,
+      "Route": {
+        "Id": 4,
+        "Departure": "Одеса",
+        "Arrival": "Київ",
+        "Distance": 480,
+        "BasePrice": 380.0,
+        "DepartureTime": "16:00:00",
+        "DisplayName": "Одеса → Київ"
+      },
+      "Passenger": {
+        "LastName": "Сидоренко",
+        "FirstName": "Анна",
+        "MiddleName": "Петрівна",
+        "Phone": "+380991234567",
+        "Document": "АВ654321",
+        "FullName": "Сидоренко Анна Петрівна",
+        "Name": "Сидоренко Анна Петрівна"
+      },
+      "Date": "2025-01-18T00:00:00",
+      "Price": 190.0,
+      "TicketType": "Child",
+      "PaymentMethod": "Cash",
+      "Status": "Active",
+      "RouteInfo": "Одеса → Київ",
+      "PassengerName": "Сидоренко Анна Петрівна"
+    },
+    {
+      "Id": 5,
+      "Route": {
+        "Id": 5,
+        "Departure": "Харків",
+        "Arrival": "Київ",
+        "Distance": 480,
+        "BasePrice": 400.0,
+        "DepartureTime": "09:00:00",
+        "DisplayName": "Харків → Київ"
+      },
+      "Passenger": {
+        "LastName": "Мельник",
+        "FirstName": "Дмитро",
+        "MiddleName": "Сергійович",
+        "Phone": "+380501111111",
+        "Document": "9876543210",
+        "FullName": "Мельник Дмитро Сергійович",
+        "Name": "Мельник Дмитро Сергійович"
+      },
+      "Date": "2025-01-19T00:00:00",
+      "Price": 392.0,
+      "TicketType": "Regular",
+      "PaymentMethod": "Card",
+      "Status": "Active",
+      "RouteInfo": "Харків → Київ",
+      "PassengerName": "Мельник Дмитро Сергійович"
+    },
+    {
+      "Id": 6,
+      "Route": {
+        "Id": 1,
+        "Departure": "Київ",
+        "Arrival": "Львів",
+        "Distance": 540,
+        "BasePrice": 450.0,
+        "DepartureTime": "08:00:00",
+        "DisplayName": "Київ → Львів"
+      },
+      "Passenger": {
+        "LastName": "Шевченко",
+        "FirstName": "Олена",
+        "MiddleName": "Миколаївна",
+        "Phone": "+380672222222",
+        "Document": "АВ111222",
+        "FullName": "Шевченко Олена Миколаївна",
+        "Name": "Шевченко Олена Миколаївна"
+      },
+      "Date": "2025-01-20T00:00:00",
+      "Price": 315.0,
+      "TicketType": "Discount",
+      "PaymentMethod": "Online",
+      "Status": "Cancelled",
+      "RouteInfo": "Київ → Львів",
+      "PassengerName": "Шевченко Олена Миколаївна"
+    },
+    {
+      "Id": 8,
+      "Route": {
+        "Id": 7,
+        "Departure": "Запоріжжя",
+        "Arrival": "Київ",
+        "Distance": 550,
+        "BasePrice": 460.0,
+        "DepartureTime": "11:00:00",
+        "DisplayName": "Запоріжжя → Київ"
+      },
+      "Passenger": {
+        "LastName": "Ткаченко",
+        "FirstName": "Наталія",
+        "MiddleName": "Олександрівна",
+        "Phone": "+380994444444",
+        "Document": "555666777",
+        "FullName": "Ткаченко Наталія Олександрівна",
+        "Name": "Ткаченко Наталія Олександрівна"
+      },
+      "Date": "2025-01-22T00:00:00",
+      "Price": 230.0,
+      "TicketType": "Child",
+      "PaymentMethod": "Online",
+      "Status": "Active",
+      "RouteInfo": "Запоріжжя → Київ",
+      "PassengerName": "Ткаченко Наталія Олександрівна"
+    },
+    {
+      "Id": 9,
+      "Route": {
+        "Id": 2,
+        "Departure": "Київ",
+        "Arrival": "Одеса",
+        "Distance": 480,
+        "BasePrice": 380.0,
+        "DepartureTime": "10:30:00",
+        "DisplayName": "Київ → Одеса"
+      },
+      "Passenger": {
+        "LastName": "Мороз",
+        "FirstName": "Андрій",
+        "MiddleName": "Володимирович",
+        "Phone": "+380505555555",
+        "Document": "АВ777888",
+        "FullName": "Мороз Андрій Володимирович",
+        "Name": "Мороз Андрій Володимирович"
+      },
+      "Date": "2025-01-10T00:00:00",
+      "Price": 380.0,
+      "TicketType": "Regular",
+      "PaymentMethod": "Cash",
+      "Status": "Cancelled",
+      "RouteInfo": "Київ → Одеса",
+      "PassengerName": "Мороз Андрій Володимирович"
+    },
+    {
+      "Id": 10,
+      "Route": {
+        "Id": 8,
+        "Departure": "Київ",
+        "Arrival": "Харків",
+        "Distance": 480,
+        "BasePrice": 400.0,
+        "DepartureTime": "13:30:00",
+        "DisplayName": "Київ → Харків"
+      },
+      "Passenger": {
+        "LastName": "Лисенко",
+        "FirstName": "Ірина",
+        "MiddleName": "Сергіївна",
+        "Phone": "+380679999999",
+        "Document": "999888777",
+        "FullName": "Лисенко Ірина Сергіївна",
+        "Name": "Лисенко Ірина Сергіївна"
+      },
+      "Date": "2025-01-05T00:00:00",
+      "Price": 400.0,
+      "TicketType": "Regular",
+      "PaymentMethod": "Cash",
+      "Status": "Used",
+      "RouteInfo": "Київ → Харків",
+      "PassengerName": "Лисенко Ірина Сергіївна"
+    },
+    {
+      "Id": 11,
+      "Route": {
+        "Id": 1,
+        "Departure": "Київ",
+        "Arrival": "Львів",
+        "Distance": 540,
+        "BasePrice": 450.0,
+        "DepartureTime": "08:00:00",
+        "DisplayName": "Київ → Львів"
+      },
+      "Passenger": {
+        "LastName": "Янко",
+        "FirstName": "Анжеліка",
+        "MiddleName": "Іванівна",
+        "Phone": "+380970919933",
+        "Document": "062102675",
+        "FullName": "Янко Анжеліка Іванівна",
+        "Name": "Янко Анжеліка Іванівна"
+      },
+      "Date": "2026-01-23T00:00:00",
+      "Price": 500.0,
+      "TicketType": "Regular",
+      "PaymentMethod": "Cash",
+      "Status": "Active",
+      "RouteInfo": "Київ → Львів",
+      "PassengerName": "Янко Анжеліка Іванівна"
+    },
+    {
+      "Id": 12,
+      "Route": {
+        "Id": 1,
+        "Departure": "Київ",
+        "Arrival": "Львів",
+        "Distance": 540,
+        "BasePrice": 450.0,
+        "DepartureTime": "08:00:00",
+        "DisplayName": "Київ → Львів"
+      },
+      "Passenger": {
+        "LastName": "Іванов",
+        "FirstName": "Олексій",
+        "MiddleName": "Юрійович",
+        "Phone": "+380970916678",
+        "Document": "062102785",
+        "FullName": "Іванов Олексій Юрійович",
+        "Name": "Іванов Олексій Юрійович"
+      },
+      "Date": "2026-01-23T00:00:00",
+      "Price": 521.000,
+      "TicketType": "Regular",
+      "PaymentMethod": "Card",
+      "Status": "Cancelled",
+      "RouteInfo": "Київ → Львів",
+      "PassengerName": "Іванов Олексій Юрійович"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AdhQqHYuDmrs5vNXddxTT6fzLBdpbs21sqTAyd/d/9uS41gA8AaY0+8lKNuuxMMNDys+nnCmM5WMES+UhzRtBQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Adm2\\OneDrive\\Рабочий стол\\coursework\\BusStationTicketSystem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Adm2\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
